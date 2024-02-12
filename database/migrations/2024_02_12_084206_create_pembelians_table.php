@@ -11,12 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('pembelian', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->string('nama');
-            $table->string('email')->unique();
-            $table->enum('role',['admin','costumer'])->default('costumer');
-            $table->string('password');
+            $table->uuid('userId');
+            $table->uuid('produkId');
+            $table->integer('qty');
+            $table->enum('status',['pending','finish'])->default('pending');
+            $table->integer('total_bayar');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('pembelians');
     }
 };

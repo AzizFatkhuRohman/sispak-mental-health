@@ -48,7 +48,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark p-0">
                 <a href="{{url('/')}}" class="navbar-brand">
-                    <h1 class="text-white">AI<span class="text-dark">.</span>Mental health</h1>
+                    <h1 class="text-white">Pop<span class="text-dark">.</span>Tansu</h1>
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -74,7 +74,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">AI. Mental health</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">Pop tansu</a>, All Right Reserved.
 
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         Created By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
